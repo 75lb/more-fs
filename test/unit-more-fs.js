@@ -1,0 +1,1 @@
+var mfs = require("../lib/more-fs");

@@ -1,0 +1,27 @@
+{
+  "name": "more-fs",
+  "version": "0.0.0",
+  "description": "a few more Filesystem functions",
+  "main": "lib/more-fs.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/75lb/more-fs.git"
+  },
+  "keywords": [
+    "fs"
+  ],
+  "author": "Lloyd Brookes",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "284560facab619b104b3dd0f2502c9f984d0eab6",
+  "dependencies": {
+    "fs-extra": "~0.6.0",
+    "nature": "0.0.2"
+  }
+}
