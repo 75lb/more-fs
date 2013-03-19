@@ -1,6 +1,6 @@
 {
   "name": "more-fs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a few more Filesystem functions",
   "main": "lib/more-fs.js",
   "directories": {
@@ -22,6 +22,6 @@
   "gitHead": "284560facab619b104b3dd0f2502c9f984d0eab6",
   "dependencies": {
     "fs-extra": "~0.6.0",
-    "nature": "0.0.2"
+    "nature": "~0.0.2"
   }
 }
