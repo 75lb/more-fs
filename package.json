@@ -13,7 +13,7 @@
   "author": "Lloyd Brookes",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "~0.8.0",
-    "nature": "~0.4.0"
+    "nature": "~0.4.0",
+    "glob": "^3.2.9"
   }
 }
