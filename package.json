@@ -5,7 +5,8 @@
   "main": "lib/more-fs.js",
   "bin": "bin/cli.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "lint": "jshint lib/*.js bin/cli.js test/*.js; echo; "
   },
   "repository": "https://github.com/75lb/more-fs.git",
   "author": "Lloyd Brookes",
