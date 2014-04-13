@@ -5,10 +5,10 @@ test("new Fileset(files)", function(t){
     var fileSet = new FileSet([ "test/fixture/*", "clive", "test/fixture/folder2/**" ]);
 
     t.deepEqual(fileSet.list, [
-        { path: "clive", type: FileSet.NOEXIST },
         { path: "test/fixture/file1", type: FileSet.FILE },
         { path: "test/fixture/folder1", type: FileSet.DIR },
         { path: "test/fixture/folder2", type: FileSet.DIR },
+        { path: "clive", type: FileSet.NOEXIST },
         { path: "test/fixture/folder2/file3", type: FileSet.FILE },
         { path: "test/fixture/folder2/folder3", type: FileSet.DIR },
         { path: "test/fixture/folder2/folder3/file4", type: FileSet.FILE }
