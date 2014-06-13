@@ -11,7 +11,7 @@
   "repository": "https://github.com/75lb/more-fs.git",
   "author": "Lloyd Brookes",
   "dependencies": {
-    "array-ting": "^1.0.4",
+    "array-tools": "^1.0.6",
     "glob": "^4.0.0"
   },
   "devDependencies": {
