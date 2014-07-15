@@ -1,6 +1,6 @@
 {
   "name": "more-fs",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "a few more Filesystem functions",
   "main": "lib/more-fs.js",
   "bin": "bin/cli.js",
